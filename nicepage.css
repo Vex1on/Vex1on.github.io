@@ -35746,6 +35746,11 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 100px;
   }
 
+  .u-footer .u-position-1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .u-footer .u-layout-cell-2 {
     min-height: 34px;
   }
