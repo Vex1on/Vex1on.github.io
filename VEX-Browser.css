@@ -81,6 +81,7 @@
   min-height: 397px;
   pointer-events: auto;
   background-image: url("images/pythonw3.9_YqK4Xn0sVm.png");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -97,7 +98,6 @@
   }
 
   .u-section-3 .u-image-1 {
-    background-position: 50% 50%;
     min-height: 327px;
   }
 }
@@ -322,6 +322,7 @@
   min-height: 439px;
   pointer-events: auto;
   background-image: url("images/wemub0VG2i.gif");
+  background-position: 50% 50%;
 }
 
 .u-section-5 .u-container-layout-2 {
@@ -338,7 +339,6 @@
   }
 
   .u-section-5 .u-image-1 {
-    background-position: 50% 50%;
     min-height: 362px;
   }
 }

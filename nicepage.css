@@ -35698,8 +35698,17 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -42px;
   }
 }
-
-
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-top: -41px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-menu-1 {
+    margin-top: -41px;
+  }
+}
 
 .u-footer .u-sheet-1 {
   min-height: 131px;
