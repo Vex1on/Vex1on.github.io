@@ -199,7 +199,6 @@
 .u-section-4 .u-slider-1 {
   width: 758px;
   min-height: 512px;
-  height: auto;
   margin: 0 -40px 0 auto;
 }
 
@@ -279,6 +278,7 @@
   .u-section-4 .u-slider-1 {
     width: 465px;
     min-height: 443px;
+    height: auto;
     margin-right: 0;
   }
 
