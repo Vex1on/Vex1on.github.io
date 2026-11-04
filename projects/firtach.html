@@ -30,7 +30,7 @@
 
     <section class="section">
       <div class="container">
-        <p class="project-intro" data-reveal>FIRTACH's original idea was to have it answer basic things with just text input, but now it can answer basic queries and use machine learning to pick out words from an intents file to chat to you like a chatbot. FIRTACH is still being worked on, but should soon be like the original idea and be able to answer queries and equations, chat to you and also automate things like lights and other smart home devices.</p>
+        <p class="project-intro" data-reveal>FIRTACH's original idea was to have it answer basic things with just text input. Now it's a voice assistant built into my VEX Workspace dashboard: it listens for a wake word, thinks with an AI model running locally on my PC, and can answer questions, work out equations, chat to you and control things like lights and other smart home devices.</p>
       </div>
     </section>
 
@@ -60,7 +60,7 @@
 
         <article class="timeline__item" data-reveal>
           <div>
-            <h2 class="timeline__version">Version 0.6 &ndash; 1.0</h2>
+            <h2 class="timeline__version">Version 0.6 &ndash; 0.10</h2>
             <p class="timeline__text">These versions use Discord's bot API to allow any user in a server with FIRTACH to ask it questions and get picked-out responses, using a machine learning response module called neural intents by <a href="https://www.neuralnine.com/" rel="noopener">NeuralNine</a>. These versions also became the first ones that actually worked better than all the previous versions, which broke after one query.</p>
           </div>
           <figure class="shot">
@@ -70,11 +70,22 @@
 
         <article class="timeline__item" data-reveal>
           <div>
-            <h2 class="timeline__version">Version 1.2</h2>
+            <h2 class="timeline__version">Version 0.12</h2>
             <p class="timeline__text">This version is the first one close to the original idea. It uses the user's voice as the input and a module called pyttsx3 for the voice output (text to speech).</p>
           </div>
           <figure class="shot">
             <img src="/assets/images/projects/firtach/v1-2-voice-demo.gif" alt="FIRTACH responding to voice commands" width="839" height="748" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="timeline__item" data-reveal>
+          <div>
+            <h2 class="timeline__version">Version 1.0</h2>
+            <p class="timeline__text">The latest version is built into my VEX Workspace dashboard. Say the wake word "F" and ask for something, or type it instead, and you can carry on talking for a few seconds after each reply without saying the wake word again. It runs a local AI model through <a href="https://ollama.com/" rel="noopener">Ollama</a> that has tools to use rather than guessing, and it replies in a neural British voice.</p>
+            <p class="timeline__text">It can now check the weather and BBC News, look things up on Wikipedia, do maths and convert units and currencies, set timers and reminders, keep a to-do list, play Apple Music, control media and volume, open apps and websites, control smart home devices, give a morning briefing and remember things about you. The dashboard's FIRTACH page also shows live cards for upcoming reminders, the to-do list and headlines.</p>
+          </div>
+          <figure class="shot">
+            <img src="/assets/images/projects/firtach/v1-0-orb.gif" alt="FIRTACH's animated orb" width="368" height="368" loading="lazy">
           </figure>
         </article>
 
