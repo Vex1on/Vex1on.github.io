@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "slug": "redesigned-site",
+      "title": "Redesigned Site",
+      "date": "2026-11-04",
+      "excerpt": "The Vexion site has now been fully revamped!",
+      "cover": "/assets/images/posts/2dce51cd-image-1793828426434.png"
+    },
+    {
       "slug": "just-a-post-to-fill-space-to-be-honest",
       "title": "Just a post to fill space to be honest",
       "date": "2021-10-22",
