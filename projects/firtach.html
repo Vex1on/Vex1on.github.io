@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/assets/css/components.css">
   <link rel="stylesheet" href="/assets/css/pages.css">
   <script type="module" src="/assets/js/motion.js"></script>
+  <script src="/assets/js/pages/firtach.js" defer></script>
 </head>
 <body>
   <script src="/assets/js/layout.js"></script>
@@ -84,9 +85,12 @@
             <p class="timeline__text">The latest version is built into my VEX Workspace dashboard. Say the wake word "F" and ask for something, or type it instead, and you can carry on talking for a few seconds after each reply without saying the wake word again. It runs a local AI model through <a href="https://ollama.com/" rel="noopener">Ollama</a> that has tools to use rather than guessing, and it replies in a neural British voice.</p>
             <p class="timeline__text">It can now check the weather and BBC News, look things up on Wikipedia, do maths and convert units and currencies, set timers and reminders, keep a to-do list, play Apple Music, control media and volume, open apps and websites, control smart home devices, give a morning briefing and remember things about you. The dashboard's FIRTACH page also shows live cards for upcoming reminders, the to-do list and headlines.</p>
           </div>
-          <figure class="shot">
-            <img src="/assets/images/projects/firtach/v1-0-orb.gif" alt="FIRTACH's animated orb" width="368" height="368" loading="lazy">
-          </figure>
+          <div class="timeline__media">
+            <figure class="shot">
+              <img src="/assets/images/projects/firtach/v1-0-dash-demo.gif" alt="FIRTACH starting up in the VEX Launcher, from the greeting Good evening John, ready to start? to the reply Good evening, John. FIRTACH is online." width="900" height="533" loading="lazy">
+            </figure>
+            <button class="btn btn--ghost btn--small" type="button" data-boot-sound="/assets/audio/firtach-boot.mp3">Play boot-up sound</button>
+          </div>
         </article>
 
         <article class="timeline__item timeline__item--end" data-reveal>

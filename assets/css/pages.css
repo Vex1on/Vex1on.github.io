@@ -510,6 +510,13 @@
   color: var(--muted);
 }
 
+.timeline__media {
+  display: grid;
+  gap: 0.9rem;
+  justify-items: start;
+  min-width: 0;
+}
+
 .timeline__item--end {
   display: block;
 }
