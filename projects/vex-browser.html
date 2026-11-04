@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <title>VEX Browser · Vexion</title>
+  <meta name="description" content="VEX Browser: a simple, secure and private web browser that doesn't store your browsing data.">
+  <meta name="theme-color" content="#0e0c13">
+  <link rel="icon" href="/assets/images/brand/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <script type="module" src="/assets/js/motion.js"></script>
+</head>
+<body>
+  <script src="/assets/js/layout.js"></script>
+
+  <main>
+    <header class="project-hero">
+      <img class="project-hero__bg" src="/assets/images/projects/vex-browser/banner-blur.png" alt="" data-parallax>
+      <div class="container">
+        <h1 class="project-hero__title">VEX Browser</h1>
+        <p class="project-hero__tagline">Simple. Secure. Private.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <p class="project-intro" data-reveal>Creating the VEX internet browser was pretty easy, but it also makes the browser snappy and more secure than others because it doesn't actually store any data that you browse: cookies, search history and so on. It doesn't have much yet, but soon I'm sure there will be more to it.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container features">
+        <article class="feature" data-reveal>
+          <div>
+            <h2 class="feature__title">Uses Google by default</h2>
+            <p class="feature__text">The URL bar doesn't actually search with a search engine, it only uses the full URL of a website to enter it. But you can set a default URL to start up on when you launch, so that you don't need to use Google, or you could have no start page and be completely invisible to search engine companies.</p>
+          </div>
+          <figure class="shot">
+            <img src="/assets/images/projects/vex-browser/window.png" alt="The VEX browser window showing the Google homepage" width="886" height="630" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="feature" data-reveal>
+          <div>
+            <h2 class="feature__title">Function buttons</h2>
+            <p class="feature__text">Because of its simplicity it only has 5 buttons on the whole UI: Back, Forward, Refresh, Google Search (takes you to google.com) and YouTube, which is just a hyperlink to YouTube.</p>
+          </div>
+          <figure class="shot shot--strip">
+            <img src="/assets/images/projects/vex-browser/toolbar.png" alt="The VEX toolbar with its five buttons and URL bar" width="341" height="26" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="feature" data-reveal>
+          <div>
+            <h2 class="feature__title">Functionality</h2>
+            <p class="feature__text">VEX Browser can stream video on any site as long as the website doesn't require a certain browser for its service. Apart from that it works just as well as Google Chrome or Microsoft Edge.</p>
+          </div>
+          <figure class="shot">
+            <img src="/assets/images/projects/vex-browser/streaming-demo.gif" alt="Video playing in the VEX browser" width="886" height="648" loading="lazy">
+          </figure>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

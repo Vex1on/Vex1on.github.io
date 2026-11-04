@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <title>Projects · Vexion</title>
+  <meta name="description" content="Vexion's latest projects: the FIRTACH virtual assistant and the VEX web browser.">
+  <meta name="theme-color" content="#0e0c13">
+  <link rel="icon" href="/assets/images/brand/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <script type="module" src="/assets/js/motion.js"></script>
+</head>
+<body>
+  <script src="/assets/js/layout.js"></script>
+
+  <main>
+    <header class="page-head">
+      <div class="container">
+        <span class="eyebrow">// projects</span>
+        <h1 class="page-title">Latest Projects</h1>
+        <p class="section-lede">See what I've been working on lately and keep updated on current projects.</p>
+      </div>
+    </header>
+
+    <section class="container section project-list">
+      <div class="project-grid" data-stagger>
+        <div data-reveal>
+          <a class="card project-card" href="/projects/firtach.html" data-tilt>
+            <div class="project-card__media">
+              <img src="/assets/images/projects/firtach/banner.png" alt="FIRTACH's interface saying: Welcome back. What can I do for you?" width="1080" height="810">
+            </div>
+            <div class="project-card__body">
+              <h2 class="project-card__name">FIRTACH</h2>
+              <p class="project-card__text">Virtual assistant in the style of JARVIS from Iron Man.</p>
+              <span class="link-arrow">Learn more <span class="link-arrow__icon" aria-hidden="true">→</span></span>
+            </div>
+          </a>
+        </div>
+        <div data-reveal>
+          <a class="card project-card" href="/projects/vex-browser.html" data-tilt>
+            <div class="project-card__media">
+              <img src="/assets/images/projects/vex-browser/banner.png" alt="VEX Browser logo above a screenshot of the browser window" width="1080" height="810">
+            </div>
+            <div class="project-card__body">
+              <h2 class="project-card__name">VEX Browser</h2>
+              <p class="project-card__text">Basic and secure web browser.</p>
+              <span class="link-arrow">Learn more <span class="link-arrow__icon" aria-hidden="true">→</span></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

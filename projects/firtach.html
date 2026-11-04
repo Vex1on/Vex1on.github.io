@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <title>FIRTACH · Vexion</title>
+  <meta name="description" content="FIRTACH: a Fully Intelligent Robot That Always Can Help. The story of a JARVIS-style virtual assistant, version by version.">
+  <meta name="theme-color" content="#0e0c13">
+  <link rel="icon" href="/assets/images/brand/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <script type="module" src="/assets/js/motion.js"></script>
+</head>
+<body>
+  <script src="/assets/js/layout.js"></script>
+
+  <main>
+    <header class="project-hero">
+      <img class="project-hero__bg" src="/assets/images/projects/firtach/banner-blur.png" alt="" data-parallax>
+      <div class="container">
+        <h1 class="project-hero__title">FIRTACH</h1>
+        <p class="project-hero__tagline">Fully Intelligent Robot That Always Can Help</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <p class="project-intro" data-reveal>FIRTACH's original idea was to have it answer basic things with just text input, but now it can answer basic queries and use machine learning to pick out words from an intents file to chat to you like a chatbot. FIRTACH is still being worked on, but should soon be like the original idea and be able to answer queries and equations, chat to you and also automate things like lights and other smart home devices.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Version history">
+      <div class="container timeline" data-timeline>
+        <div class="timeline__rail" aria-hidden="true"><div class="timeline__fill"></div></div>
+
+        <article class="timeline__item" data-reveal>
+          <div>
+            <h2 class="timeline__version">Version 0.1 &ndash; 0.3</h2>
+            <p class="timeline__text">In the early days FIRTACH (Version 0.1) just didn't work. It was only a glitchy file that didn't work out because it was Python in a .batch file. It was also called "VEX Assistant" because I didn't know what to call it yet.</p>
+          </div>
+          <figure class="shot">
+            <img src="/assets/images/projects/firtach/v0-1-console.png" alt="A console window titled V E X assistant V0.1 repeating command-not-recognized errors" width="482" height="352" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="timeline__item" data-reveal>
+          <div>
+            <h2 class="timeline__version">Version 0.4</h2>
+            <p class="timeline__text">In these versions FIRTACH kind of worked and could use basic functions like telling the time and date, using the user's text as the input.</p>
+          </div>
+          <figure class="shot">
+            <img src="/assets/images/projects/firtach/v0-4-text-demo.gif" alt="FIRTACH replying to typed questions in a console" width="523" height="137" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="timeline__item" data-reveal>
+          <div>
+            <h2 class="timeline__version">Version 0.6 &ndash; 1.0</h2>
+            <p class="timeline__text">These versions use Discord's bot API to allow any user in a server with FIRTACH to ask it questions and get picked-out responses, using a machine learning response module called neural intents by <a href="https://www.neuralnine.com/" rel="noopener">NeuralNine</a>. These versions also became the first ones that actually worked better than all the previous versions, which broke after one query.</p>
+          </div>
+          <figure class="shot">
+            <img src="/assets/images/projects/firtach/v0-6-discord-demo.gif" alt="Chatting with FIRTACH in the firtach-chatroom Discord channel" width="1000" height="730" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="timeline__item" data-reveal>
+          <div>
+            <h2 class="timeline__version">Version 1.2</h2>
+            <p class="timeline__text">This version is the first one close to the original idea. It uses the user's voice as the input and a module called pyttsx3 for the voice output (text to speech).</p>
+          </div>
+          <figure class="shot">
+            <img src="/assets/images/projects/firtach/v1-2-voice-demo.gif" alt="FIRTACH responding to voice commands" width="839" height="748" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="timeline__item timeline__item--end" data-reveal>
+          <h2>Any more updates to FIRTACH will be added here.</h2>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

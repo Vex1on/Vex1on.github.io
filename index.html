@@ -1,135 +1,127 @@
-<!DOCTYPE html>
-<html style="font-size: 16px;">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Latest Posts, Post 1 Headline">
-    <meta name="description" content="">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Home</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Home.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 3.28.7, nicepage.com">
-    <link rel="icon" href="images/favicon.png">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    
-    
-    
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Site1",
-		"logo": "images/VEXION.png"
-}</script>
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Home">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="website">
-  </head>
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body"><header class="u-clearfix u-custom-color-2 u-header u-header" id="sec-efc3"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="Home.html" data-page-id="438206463" class="u-image u-logo u-image-1" data-image-width="486" data-image-height="256" title="Home">
-          <img src="images/VEXION.png" class="u-logo-image u-logo-image-1">
-        </a>
-        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
-            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</symbol>
-</defs></svg>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <title>Vexion</title>
+  <meta name="description" content="Vexion's projects and posts: coding, a JARVIS-style virtual assistant called FIRTACH, the VEX browser and more.">
+  <meta name="theme-color" content="#0e0c13">
+  <meta property="og:title" content="Vexion">
+  <meta property="og:description" content="Coding and cool projects that are worth my time but nobody else's.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/images/brand/poster.png">
+  <link rel="icon" href="/assets/images/brand/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <script type="module" src="/assets/js/motion.js"></script>
+  <script type="module" src="/assets/js/pages/home.js"></script>
+</head>
+<body>
+  <script src="/assets/js/layout.js"></script>
+
+  <main>
+    <section class="hero">
+      <div class="hero__aura hero__aura--one"></div>
+      <div class="hero__aura hero__aura--two"></div>
+      <canvas class="hero__wave" data-waveform aria-hidden="true"></canvas>
+
+      <div class="container hero__content">
+        <h1>
+          <img class="hero__logo" src="/assets/images/brand/logo.png" alt="Vexion" width="486" height="256" fetchpriority="high">
+        </h1>
+        <p class="hero__lede">Basically I do some coding and work on cool projects that I think are worth my time but <em>nobody else's.</em></p>
+        <p class="hero__signature">Kind of useless, but oh well. &mdash; Vexion</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="/projects/">See my latest projects <span class="btn__arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="/posts/">See the latest posts</a>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"></div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="eyebrow">// projects</span>
+            <h2 class="section-title">Take a look at some of my projects</h2>
+            <p class="section-lede">See what I've been working on lately and keep updated on current projects.</p>
+          </div>
+        </div>
+
+        <div class="project-grid" data-stagger>
+          <div data-reveal>
+            <a class="card project-card" href="/projects/firtach.html" data-tilt>
+              <div class="project-card__media">
+                <img src="/assets/images/projects/firtach/banner.png" alt="FIRTACH's interface saying: Welcome back. What can I do for you?" width="1080" height="810" loading="lazy">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__name">FIRTACH</h3>
+                <p class="project-card__text">Virtual assistant in the style of JARVIS from Iron Man.</p>
+                <span class="link-arrow">Learn more <span class="link-arrow__icon" aria-hidden="true">→</span></span>
+              </div>
             </a>
           </div>
-          <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-7 u-text-hover-custom-color-6" href="Home.html" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-7 u-text-hover-custom-color-6" href="Latest-Projects.html" style="padding: 10px 20px;">Latest Projects</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-7 u-text-hover-custom-color-6" href="blog/blog.html" style="padding: 10px 20px;">Posts</a>
-</li></ul>
-          </div>
-          <div class="u-custom-menu u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-inner-container-layout u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Latest-Projects.html" style="padding: 10px 20px;">Latest Projects</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="blog/blog.html" style="padding: 10px 20px;">Posts</a>
-</li></ul>
+          <div data-reveal>
+            <a class="card project-card" href="/projects/vex-browser.html" data-tilt>
+              <div class="project-card__media">
+                <img src="/assets/images/projects/vex-browser/banner.png" alt="VEX Browser logo above a screenshot of the browser window" width="1080" height="810" loading="lazy">
               </div>
-            </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-          </div>
-        </nav>
-      </div></header>
-    <section class="u-clearfix u-image u-section-1" id="sec-eea1" data-image-width="1080" data-image-height="810">
-      <div class="u-clearfix u-sheet u-sheet-1"></div>
-    </section>
-    <section class="u-align-center u-clearfix u-custom-color-2 u-section-2" id="sec-512e">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">Latest Posts</h2><!--blog--><!--blog_options_json--><!--{"type":"Recent","source":"","tags":"","count":""}--><!--/blog_options_json-->
-        <div class="u-blog u-expanded-width u-blog-1">
-          <div class="u-repeater u-repeater-1"><!--blog_post-->
-            <div class="u-blog-post u-container-style u-grey-80 u-radius-24 u-repeater-item u-shape-round">
-              <div class="u-container-layout u-similar-container u-container-layout-1"><!--blog_post_header-->
-                <h2 class="u-blog-control u-text">
-                  <a class="u-post-header-link" href="blog/just-a-post-to-fill-space-to-be-honest.html"><!--blog_post_header_content-->Just a post to fill space to be honest<!--/blog_post_header_content--></a>
-                </h2><!--/blog_post_header-->
-                <a class="u-post-header-link" href="blog/just-a-post-to-fill-space-to-be-honest.html"><!--blog_post_image-->
-                  <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="images/ezgif.com-gif-maker12.gif"><!--/blog_post_image-->
-                </a><!--blog_post_content-->
-                <div class="u-blog-control u-post-content u-text u-text-3"><!--blog_post_content_content-->yeah nothing much<!--/blog_post_content_content--></div><!--/blog_post_content--><!--blog_post_metadata-->
-                <div class="u-blog-control u-metadata u-metadata-1"><!--blog_post_metadata_date-->
-                  <span class="u-meta-date u-meta-icon"><!--blog_post_metadata_date_content-->Fri Oct 22 2021<!--/blog_post_metadata_date_content--></span><!--/blog_post_metadata_date-->
-                </div><!--/blog_post_metadata--><!--blog_post_readmore-->
-                <a href="blog/just-a-post-to-fill-space-to-be-honest.html" class="u-active-none u-blog-control u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1"><!--blog_post_readmore_content--><!--options_json--><!--{"content":""}--><!--/options_json-->Read More<!--/blog_post_readmore_content--></a><!--/blog_post_readmore-->
+              <div class="project-card__body">
+                <h3 class="project-card__name">VEX Browser</h3>
+                <p class="project-card__text">Basic and secure web browser.</p>
+                <span class="link-arrow">Learn more <span class="link-arrow__icon" aria-hidden="true">→</span></span>
               </div>
-            </div><!--/blog_post-->
-          </div>
-        </div><!--/blog-->
-        <div class="u-border-3 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></div>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-custom-color-2 u-section-3" id="sec-142e">
-      <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
-        <div class="u-gutter-0 u-layout">
-          <div class="u-layout-row">
-            <div class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-1">
-              <div class="u-container-layout u-valign-middle u-container-layout-1">
-                <div class="u-image u-image-circle u-preserve-proportions u-image-1" alt="" data-image-width="512" data-image-height="512"></div>
-              </div>
-            </div>
-            <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-              <div class="u-container-layout u-container-layout-2">
-                <h2 class="u-custom-font u-font-raleway u-text u-text-1">What I do<br>
-                </h2>
-                <p class="u-text u-text-2">Basically I do some coding and work on cool projects that I think are worth my time but nobody elses, Kind of useless but oh well</p>
-                <h5 class="u-text u-text-default u-text-3">&nbsp;- Vexion</h5>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
-    <section class="u-align-center u-clearfix u-custom-color-2 u-section-4" src="" id="sec-6532">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <img class="u-expanded-width-xs u-image u-image-round u-radius-32 u-image-1" src="images/bg1.png" data-image-width="1766" data-image-height="1325">
-        <h1 class="u-text u-text-white u-title u-text-1">Take a look at some of&nbsp;my projects</h1>
-        <p class="u-large-text u-text u-text-variant u-text-white u-text-2">See what i've been working on lately and keep updated on current projects</p>
-        <a href="Latest-Projects.html" data-page-id="109336505" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-7 u-hover-custom-color-8 u-radius-50 u-btn-1">See my latest Projects</a>
-        <img class="u-image u-image-round u-radius-32 u-image-2" src="images/bg2.png" data-image-width="1600" data-image-height="1200">
-        <h1 class="u-text u-text-white u-title u-text-3">See what im up to</h1>
-        <p class="u-large-text u-text u-text-variant u-text-white u-text-4">Any updates/ new features of a project or general announcements will be posted in here.</p>
-        <a href="Posts.html" data-page-id="15101201" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-7 u-hover-custom-color-8 u-radius-50 u-btn-2">See the latest posts</a>
+
+    <section class="section talk">
+      <div class="container talk__grid">
+        <div data-reveal>
+          <span class="eyebrow">// meet firtach</span>
+          <h2 class="section-title">Fully Intelligent Robot That Always Can Help</h2>
+          <p class="section-lede">Started as a glitchy batch file. Now it listens, talks back and is slowly becoming the assistant it was meant to be.</p>
+          <p><a class="btn btn--ghost section-action" href="/projects/firtach.html">See how it got here <span class="btn__arrow" aria-hidden="true">→</span></a></p>
+        </div>
+
+        <div class="chat" data-chat data-reveal>
+          <div class="chat__bar">
+            <span>firtach</span>
+            <span class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+          </div>
+          <div class="chat__log">
+            <p class="chat__line" data-line><span data-text>What can I do for you?</span></p>
+            <p class="chat__line chat__line--user" data-line><span data-text>Who are you?</span></p>
+            <p class="chat__line" data-line><span data-text>I am FIRTACH, a fully intelligent robot that can always help.</span></p>
+          </div>
+        </div>
       </div>
     </section>
-    
-    
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-0003"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Vexion © 2021&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Socials | <a href="https://discordapp.com/users/791798635485986817/" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">Discord&nbsp; </a>
-          <a href="https://www.youtube.com/channel/UCIFpxx27m62b8dg-cQadzIA" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2">Youtube</a>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="eyebrow">// posts</span>
+            <h2 class="section-title">See what I'm up to</h2>
+            <p class="section-lede">Any updates, new features of a project or general announcements will be posted here.</p>
+          </div>
+          <a class="btn btn--ghost" href="/posts/">All posts <span class="btn__arrow" aria-hidden="true">→</span></a>
+        </div>
+        <div class="post-grid" data-latest-posts>
+          <div class="skeleton"></div>
+        </div>
+      </div>
     </section>
-  </body>
+  </main>
+</body>
 </html>
