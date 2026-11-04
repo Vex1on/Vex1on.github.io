@@ -2,7 +2,7 @@
 For the new and improved site, Claude code running the Opus 5.5 model was used and was fed the latest push of the old site.
 
 ## Prompt Used
-“Redesign the Vexion site to make include a user login system that allows me to add posts and make nice visual and animation improvements, also reorganise the file system so its more well organised.”
+“Redesign the Vexion site to include a user login system that allows me to add posts and make nice visual and animation improvements, also reorganise the file system so its more well organised.”
 
 ## The Result
 Claude implemented fluid animations, clean design and a streamlined way for me to post to the website, allowing me to quickly add posts with a GitHub token login system. 
