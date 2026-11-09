@@ -13,4 +13,10 @@ Claude also considered something I didn’t initially plan on and that was optim
 
 All this was done while keeping the old style of the site with its colour scheme and imagery, while sprucing up everything around that.
 
+## Site & Application Colour Scheme
+![image-1794262852218](/assets/images/posts/88b290cf-image-1794262852218.png)
+
+## Post & Site Imagery Colour Scheme
+![imagery-colour-scheme](/assets/images/posts/832243d1-imagery-colour-scheme.png)
+
 Stay tuned for further updates to the site and the projects featured.
