@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "slug": "firtach-release-coming-soon",
+      "title": "FIRTACH Release Coming Soon",
+      "date": "2026-11-09",
+      "excerpt": "An open-source release of FIRTACH coming soon.",
+      "cover": "/assets/images/posts/887eb0a5-firtach-release-cover.png"
+    },
+    {
       "slug": "redesigned-site",
       "title": "Redesigned Site",
       "date": "2026-11-04",
